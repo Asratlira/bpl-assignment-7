@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "player_img": "https://i.ibb.co.com/gMQdwFR/cricket-match-with-player.jpg",
     "player_name": "John Smith",
     "player_country": "Australia",
@@ -8,6 +9,7 @@
     "price": "$1.2M"
   },
   {
+    "id": 2,
     "player_img": "https://i.ibb.co.com/gMQdwFR/cricket-match-with-player.jpg",
     "player_name": "Carlos Hernandez",
     "player_country": "Spain",
@@ -16,6 +18,7 @@
     "price": "$950K"
   },
   {
+    "id": 3,
     "player_img": "https://i.ibb.co.com/gMQdwFR/cricket-match-with-player.jpg",
     "player_name": "Ravi Patel",
     "player_country": "India",
@@ -24,6 +27,7 @@
     "price": "$1.5M"
   },
   {
+    "id": 4,
     "player_img": "https://i.ibb.co.com/gMQdwFR/cricket-match-with-player.jpg",
     "player_name": "James Parker",
     "player_country": "England",
@@ -32,6 +36,7 @@
     "price": "$1.1M"
   },
   {
+    "id": 5,
     "player_img": "https://i.ibb.co.com/gMQdwFR/cricket-match-with-player.jpg",
     "player_name": "Akira Sato",
     "player_country": "Japan",
@@ -40,6 +45,7 @@
     "price": "$800K"
   },
   {
+    "id": 6,
     "player_img": "https://i.ibb.co.com/gMQdwFR/cricket-match-with-player.jpg",
     "player_name": "Liam O'Connor",
     "player_country": "Ireland",

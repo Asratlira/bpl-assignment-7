@@ -4,4 +4,5 @@
 .btn {
   padding: 15px;
   border: 1x solid greenyellow;
+  border-radius: 10px;
 }

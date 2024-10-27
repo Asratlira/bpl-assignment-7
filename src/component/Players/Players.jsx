@@ -10,15 +10,15 @@ const Players = ({ isActiveHandler, isActive }) => {
       <div>
         {isActive.available ? <Available></Available> : <Selected></Selected>}
       </div>
-      <div className="flex rounded-lg border-2">
+      <div className="flex items-center rounded-lg  h-10 ">
         <div
-          className={`${isActive.available ? "btn active" : "btn"}`}
+          className={`${isActive.available ? "btn active" : "btn"} `}
           onClick={() => isActiveHandler("available")}
         >
           available
         </div>
         <div
-          className={`${isActive.available ? "btn " : "btn active"}`}
+          className={`${isActive.available ? "btn " : "btn active"} `}
           onClick={() => isActiveHandler("selected")}
         >
           selected
