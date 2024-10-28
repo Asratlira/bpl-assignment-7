@@ -5,10 +5,26 @@ import Available from "../Available/Available";
 import Selected from "../Selected/Selected";
 
 const Players = ({ isActiveHandler, isActive }) => {
+  const [seclected, setselected] = useState([]);
+  const selectHandeler = (player) => {
+    const newSelected = [...seclected, player];
+    setselected(newSelected);
+  };
+  const removeSelect = (remain) => {
+    const remaimning = seclected.filter((select) => select.id !== remain);
+    setselected(remaimning);
+  };
   return (
     <div className=" flex  justify-between gap-3  rounded-lg font-bold">
       <div>
-        {isActive.available ? <Available></Available> : <Selected></Selected>}
+        {isActive.available ? (
+          <Available selectHandeler={selectHandeler}></Available>
+        ) : (
+          <Selected
+            removeSelect={removeSelect}
+            seclected={seclected}
+          ></Selected>
+        )}
       </div>
       <div className="flex items-center rounded-lg  h-10 ">
         <div

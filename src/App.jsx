@@ -1,8 +1,7 @@
 import "./App.css";
 import Header from "./component/Header/Header";
 import Players from "./component/Players/Players";
-import Selected from "./component/Selected/Selected";
-import Available from "./component/Available/Available";
+
 import { useState } from "react";
 
 function App() {
