@@ -1,5 +1,3 @@
-import React from "react";
-
 const Selectedone = ({ select, removeSelect }) => {
   const { player_img, player_name, id } = select;
   return (

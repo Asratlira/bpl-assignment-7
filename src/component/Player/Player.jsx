@@ -1,6 +1,6 @@
 const Player = ({ player, selectHandeler }) => {
   const { player_img, player_name, player_country, price } = player;
-  console.log(player);
+
   return (
     <div className=" border p-4 rounded-lg ">
       <img src={player_img} alt={`${player_name}`} />
@@ -29,9 +29,9 @@ const Player = ({ player, selectHandeler }) => {
         </div>
 
         <div className="flex justify-between">
-          <h1>Price:{price}</h1>
+          <h1>Price:${price}</h1>
           <button
-            onClick={() => selectHandeler(player)}
+            onClick={() => selectHandeler(player, price)}
             className=" bg-white border p-2 rounded-lg "
           >
             Choose Player

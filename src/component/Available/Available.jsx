@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
-const Available = ({ selectHandeler }) => {
+const Available = ({ selectHandeler, removeSelect }) => {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
@@ -15,9 +15,10 @@ const Available = ({ selectHandeler }) => {
       <div className="grid grid-cols-3 mt-10 gap-6 max-w-7xl mx-auto  ">
         {players.map((player) => (
           <Player
-            selectHandeler={selectHandeler}
             key={player.id}
+            selectHandeler={selectHandeler}
             player={player}
+            removeSelect={removeSelect}
           ></Player>
         ))}
       </div>

@@ -6,7 +6,7 @@
     "player_country": "Australia",
     "rating": 89,
     "left_hand_bat": true,
-    "price": "$1.2M"
+    "price": "700000"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "player_country": "Spain",
     "rating": 75,
     "left_hand_bat": false,
-    "price": "$950K"
+    "price": "950000"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "player_country": "India",
     "rating": 92,
     "left_hand_bat": true,
-    "price": "$1.5M"
+    "price": "500000"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "player_country": "England",
     "rating": 82,
     "left_hand_bat": false,
-    "price": "$1.1M"
+    "price": "100000"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "player_country": "Japan",
     "rating": 78,
     "left_hand_bat": true,
-    "price": "$800K"
+    "price": "8000"
   },
   {
     "id": 6,
@@ -51,6 +51,6 @@
     "player_country": "Ireland",
     "rating": 85,
     "left_hand_bat": false,
-    "price": "$1.0M"
+    "price": "300000"
   }
 ]

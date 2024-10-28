@@ -1,13 +1,8 @@
 import navicon from "../../assets/assets/logo.png";
 import banner from "../../assets/assets/banner-main.png";
 import bannerShadow from "../../assets/assets/bg-shadow.png";
-import { useState } from "react";
 
-const Header = () => {
-  const [addCoins, setCoins] = useState(0);
-  const eventHandeler = (add) => {
-    setCoins(addCoins + add);
-  };
+const Header = ({ eventHandeler, addCoins }) => {
   return (
     <div>
       <div className="flex justify-between text-center max-w-7xl mx-auto mt-10">
@@ -18,7 +13,7 @@ const Header = () => {
           <h2>Schedules</h2>
           <h2>Teams</h2>
           <button className="flex items-center  btn bg-slate-100  px-2 rounded-lg">
-            <span> {addCoins} coin</span>
+            <span>{addCoins} coin</span>
             <img
               className="w-6"
               src="https://img.icons8.com/?size=48&id=OFHwDWASQWmX&format=png"
